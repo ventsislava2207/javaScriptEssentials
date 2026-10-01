@@ -17,3 +17,13 @@ function increaseCount() {
     displayCount(); // display the count
     checkCountValue(); // check count value and display messages
 }
+
+function decreaseCount() {
+    count--;
+    displayCount();
+}
+
+function resetCount() {
+    count = 0;
+    displayCount();
+}
