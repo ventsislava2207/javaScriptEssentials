@@ -26,4 +26,7 @@ function decreaseCount() {
 function resetCount() {
     count = 0;
     displayCount();
+    if (count === 0) {
+        alert("Followers count has been reset!")
+    }
 }
